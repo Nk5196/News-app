@@ -1,0 +1,45 @@
+#navbar{
+    display: flex;
+    margin-left: 20px;
+}
+#sidebar{
+    width: 20%;
+}
+#search_input{
+    width: 70%;
+    height: 35px;
+    border: 1px solid salmon;
+    border-radius: 20px;
+    margin: auto;
+    justify-content: center;
+    padding: 5px;
+}
+#news{
+    width: 350px;
+    height: 400px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+#img{
+    width: 250px;
+    height: 250px;
+}
+
+#block2{
+    /* border: 1px solid green; */
+    display: flex;
+    height: 700px;
+}
+#result{
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    display: grid;
+    
+    justify-content: space-between;
+   
+}
+p{
+    width: 200px;
+}
